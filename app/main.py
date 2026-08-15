@@ -6,7 +6,7 @@ app = FastAPI(title="FastAPI Basic Project")
 
 @app.get("/")
 def read_root() -> dict[str, str]:
-    return {"message": "Hello from FastAPI!"}
+    return {"message": "Hello from FastAPI test project!"}
 
 
 @app.get("/health")
